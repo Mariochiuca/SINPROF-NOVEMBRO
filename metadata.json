@@ -1,0 +1,8 @@
+{
+  "name": "SINPROF - Sistema de Gestão Sindical",
+  "description": "Sistema Integrado de Gestão do Sindicato Nacional de Professores (SINPROF - Angola). Inclui Radar Nacional de Professores, Inteligência Sindical e Gestão Geral.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}

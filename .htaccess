@@ -1,0 +1,18 @@
+# SINPROF - Configuração Apache para XAMPP
+# Localização: C:\xampp\htdocs\sinprof\.htaccess
+
+DirectoryIndex index.php index.html
+
+<IfModule mod_rewrite.c>
+    RewriteEngine On
+    RewriteBase /sinprof/
+</IfModule>
+
+# Habilitar cabeçalhos CORS e Codificação UTF-8
+<IfModule mod_headers.c>
+    Header set Access-Control-Allow-Origin "*"
+    Header set Access-Control-Allow-Methods "GET, POST, OPTIONS, PUT, DELETE"
+    Header set Access-Control-Allow-Headers "Content-Type, Authorization"
+</IfModule>
+
+AddDefaultCharset UTF-8
